@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/tvUser"
+        android:adjustViewBounds="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        tools:src="@drawable/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ivProfile"
+        android:layout_toLeftOf="@+id/tvSince"
+        tools:text="Name of the user"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/tvTweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/ivProfile"
+        android:layout_below="@+id/tvUser"
+        tools:text="Alot of useless text\nAlot of useless text\n"
+        android:layout_marginTop="2dp"
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvSince"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        tools:text="33 sec"
+        android:textSize="13sp"/>
+
+</RelativeLayout>

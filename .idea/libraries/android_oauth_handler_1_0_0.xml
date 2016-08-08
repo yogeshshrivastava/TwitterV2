@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="android-oauth-handler-1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.codepath.libraries/android-oauth-handler/1.0.0/jars/libs/scribe-codepath-0.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.codepath.libraries/android-oauth-handler/1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.codepath.libraries/android-oauth-handler/1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.codepath.libraries/android-oauth-handler/1.0.0/jars/libs/codepath-utils.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codepath.libraries/android-oauth-handler/1.0.0/ca7f60c5ddd2d6fc0febffc6e244f2e1fc8dc254/android-oauth-handler-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

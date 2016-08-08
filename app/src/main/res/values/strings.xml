@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Twitter V2</string>
+    <string name="login_label">Log in</string>
+    <string name="title_activity_time_line">TimeLineActivity</string>
+    <string name="title_activity_create">CreateActivity</string>
+    <string name="status_hint">What\'s on your mind...</string>
+    <string name="welcome_to_twitter">Welcome to Twitter V2</string>
+    <string name="welcome_subtitle">Get real time updates about \nwhat matters to you.</string>
+    <string name="create_tweet_title">What's on your mind!</string>
+</resources>
